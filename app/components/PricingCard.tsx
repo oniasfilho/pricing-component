@@ -10,7 +10,7 @@ type PricingCardProps = {
 
 export default function PricingCard({ plan, isMonthly, productIndex }: PricingCardProps) {
   return (
-    <div key={plan.id} className={`grid gap-[33px] justify-evenly items-center min-w-[327px]  ${productIndex % 2 === 0 ? "bg-white" : "bg-main-gradient text-white lg:h-[550px]"}  rounded-md py-[31px] px-[29px]`}>
+    <div key={plan.id} className={`grid cursor-pointer shadow-lg  transition ease-in-out duration-500 gap-[33px] justify-evenly items-center min-w-[327px]  ${productIndex % 2 === 0 ? "bg-white hover:bg-gray-200" : "bg-main-gradient hover:bg-main-gradient-hover text-white lg:h-[550px]"}  rounded-md py-[31px] px-[29px]`}>
       <span className='plan-title text-center font-bold'>{plan.title}</span>
       <div className='text-center'>
         <span className='plan-title text-[72px] font-bold'>

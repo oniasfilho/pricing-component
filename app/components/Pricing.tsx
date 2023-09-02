@@ -29,6 +29,7 @@ export default function Pricing() {
           <div className="toggle-wrapper flex gap-[24px] items-center" >
             <span className='font-bold opacity-50'>Annually</span>
             <button
+              role="switch"
               aria-label="Toggle between monthly and annual billing"
               aria-checked={isMonthly}
               className={`theme-toggle-button ${isMonthly ? 'active' : ''}`}

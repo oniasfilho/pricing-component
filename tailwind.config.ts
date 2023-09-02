@@ -16,6 +16,7 @@ const config: Config = {
       },
        backgroundImage: {
         'main-gradient': 'linear-gradient(to right, #A2A7F0, #696EDD)',
+        'main-gradient-hover': 'linear-gradient(to right, #8083C7, #4749B2)',
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
