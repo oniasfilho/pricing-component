@@ -23,7 +23,7 @@ export default function Pricing() {
   return (
     <section className='pricing-component grid grid-rows-[255px_1fr] items-center justify-center w-screen min-h-screen place-content-center'>
       <div className=" w-full pricing-component-header flex flex-col items-center justify-center">
-        <span className='font-bold text-[32px] pb-[40px]'>Our Pricing</span>
+        <h1 className='font-bold text-[32px] pb-[40px]'>Our Pricing</h1>
 
         <div className="toggle-area">
           <div className="toggle-wrapper flex gap-[24px] items-center" >
