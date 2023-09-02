@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pricing Component Challenge - Completed
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Hi there, thank you for you checking out this project ❤️
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The goal of this project was to create a visually appealing and functionally robust pricing component. To further enhance the development experience and the application's performance, I've employed a modern tech stack involving TypeScript, Next.js, React.js, and Tailwind CSS.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **TypeScript**: Added strong typing to JavaScript, improving development and debugging.
+  
+- **Next.js**: Utilized for server-side rendering, improving the SEO and performance of the app.
+  
+- **React.js**: Employed for building the UI components in a maintainable and efficient way.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Tailwind CSS**: Used for rapid UI development without leaving the HTML.
 
-## Learn More
+## Features Implemented
 
-To learn more about Next.js, take a look at the following resources:
+### Toggle Control
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Users can control the toggle to switch between different pricing plans. This was implemented using React state management to ensure reactivity.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Responsive Design
 
-## Deploy on Vercel
+- The application is fully responsive, providing an optimized layout across various device screen sizes. Tailwind's utility-first CSS was particularly useful here.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Interactive Elements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- All buttons, toggles, and other interactive elements have specified hover and focus states for better UX. Tailwind CSS classes were utilized to achieve this.
+
+## Setup & Installation
+
+1. Clone the repository
+
+       ```bash
+       git clone https://github.com/your-repository/pricing-component-challenge.git
+       ```
+
+2. Navigate to the project directory
+
+       ```bash
+       cd pricing-component-challenge
+       ```
+
+3. Install dependencies
+
+       ```bash
+       npm install
+       ```
+
+4. Run the project
+
+       ```bash
+       npm run dev
+       ```
+
+## Support
+
+For any questions or support, feel free to reach out to me on LinkedIn: [Onias Filho](https://www.linkedin.com/in/oniasfilho). I'm more than happy to assist with any issues or questions you may have regarding this project.
+
+Thank you for checking out this completed challenge! Feel free to dive into the code to better understand the implementation details.
