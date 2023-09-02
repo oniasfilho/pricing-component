@@ -6,6 +6,8 @@ Hi there, thank you for you checking out this project ❤️
 
 The goal of this project was to create a visually appealing and functionally robust pricing component. To further enhance the development experience and the application's performance, I've employed a modern tech stack involving TypeScript, Next.js, React.js, and Tailwind CSS.
 
+![Alt text](image.png)
+
 ## Technologies Used
 
 - **TypeScript**: Added strong typing to JavaScript, improving development and debugging.
