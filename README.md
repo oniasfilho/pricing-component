@@ -1,4 +1,4 @@
-# Pricing Component Challenge - Completed
+# Pricing Component
 
 ## Overview
 
@@ -36,27 +36,27 @@ The goal of this project was to create a visually appealing and functionally rob
 
 1. Clone the repository
 
-       ```bash
-       git clone https://github.com/your-repository/pricing-component-challenge.git
-       ```
+    ```bash
+    git clone https://github.com/your-repository/pricing-component-challenge.git
+    ```
 
 2. Navigate to the project directory
 
-       ```bash
-       cd pricing-component-challenge
-       ```
+      ```bash
+    cd pricing-component-challenge
+      ```
 
 3. Install dependencies
 
-       ```bash
-       npm install
-       ```
+    ```bash
+    npm install
+    ```
 
 4. Run the project
 
-       ```bash
-       npm run dev
-       ```
+    ```bash
+    npm run dev
+    ```
 
 ## Support
 
