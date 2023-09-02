@@ -10,7 +10,7 @@ type PricingCardProps = {
 
 export default function PricingCard({ plan, isMonthly, productIndex }: PricingCardProps) {
   return (
-    <div key={plan.id} className={`grid gap-[33px] justify-evenly items-center min-w-[327px] w-[327px] ${productIndex % 2 === 0 ? "bg-white" : "bg-main-gradient text-white"} h-[453px rounded-md py-[31px] px-[29px]`}>
+    <div key={plan.id} className={`grid gap-[33px] justify-evenly items-center min-w-[327px]  ${productIndex % 2 === 0 ? "bg-white" : "bg-main-gradient text-white"} h-[453px rounded-md py-[31px] px-[29px]`}>
       <span className='plan-title text-center font-bold'>{plan.title}</span>
       <div className='text-center'>
         <span className='plan-title text-[72px] font-bold'>
@@ -18,7 +18,7 @@ export default function PricingCard({ plan, isMonthly, productIndex }: PricingCa
           {isMonthly ? plan.price : plan.price + "9"}
         </span>
       </div>
-      <div className='flex flex-col plan-features font-bold items-center'>
+      <div className='flex flex-col plan-features font-bold items-center w-[273px]'>
         {plan.features.map((feature, index) => (
           <div className={`border border-gray-400 border-x-0 p-[12px] w-full flex flex-col items-center 
                   ${index % 2 === 0 ? null : "border-y-0"}`} key={shortUUID.generate()}>{feature}</div>

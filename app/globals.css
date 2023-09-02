@@ -78,6 +78,8 @@ teste{
 
 @media (min-width: 1025px) {
   .pricing-component {
-    background-position: calc(110%) -50px;
+    background-image: url('/assets/imgs/bg-pattern.svg'), url('/assets/imgs/bg-pattern.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: calc(110%) -50px, bottom left;
   }
 }

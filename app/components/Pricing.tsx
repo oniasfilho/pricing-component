@@ -22,7 +22,7 @@ export default function Pricing() {
 
   return (
     <section className='pricing-component grid grid-rows-[255px_1fr] items-center justify-center w-screen min-h-screen place-content-center'>
-      <div className=" w-[453px] pricing-component-header flex flex-col items-center justify-center">
+      <div className=" w-full pricing-component-header flex flex-col items-center justify-center">
         <span className='font-bold text-[32px] pb-[40px]'>Our Pricing</span>
 
         <div className="toggle-area">
@@ -39,7 +39,7 @@ export default function Pricing() {
         </div>
       </div>
 
-      <div className="cards flex flex-col gap-[32.5px] items-center">
+      <div className="cards flex flex-col lg:flex-row gap-[32.5px] items-center">
         {products.map((each, index) => (
           <PricingCard plan={each} isMonthly={isMonthly} productIndex={index} />
         ))}
