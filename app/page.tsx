@@ -61,7 +61,7 @@ export default function Home() {
                   ${index %2===0? null : "border-y-0"}`} key={shortUUID.generate()}>{feature}</div>
                 ))}
               </div>
-              <button className={`uppercase font-bold text-[13px] ${index%2===0? "bg-main-gradient": "bg-white text-[#6E728E]"} text-white py-[14px] rounded-md w-[268px]`}>
+              <button className={`uppercase font-bold text-[13px] ${index%2===0? "bg-main-gradient text-white": "bg-white text-[#6E728E]"} py-[14px] rounded-md w-[268px]`}>
                 Learn More
               </button>
             </div>

@@ -66,6 +66,18 @@ teste{
 .pricing-component {
   background: url('/assets/imgs/bg-pattern.svg');
   background-repeat: no-repeat;
-  background-position: calc(240%) -50px;
+  background-position: calc(110%) -50px;
   background-size: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .pricing-component {
+    background-position: calc(110%) -50px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .pricing-component {
+    background-position: calc(110%) -50px;
+  }
 }
